@@ -21,7 +21,7 @@ tags:
 ![qiwang](/img/in-post/gaussian_model/gaussian_2.png)
 其中，\mu为数据均值(期望)，![qiwang](/img/in-post/gaussian_model/cov.png)为协方差，D为数据维度。  
 **高斯混合模型**
-
+$$\sum_{i=0}N\int_{a}{b}g(t,i)\text{d}t$$
 
 
 
