@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "高斯混合模型"
+title:        "高斯混合模型(GMM)"
 date:         2021-05-15
 author:       "sipengwei"
 header-mask:  0.3
@@ -16,7 +16,8 @@ tags:
 **高斯模型**
 
 当样本数据X是一维数据时，高斯分布遵从下方概率密度函数：
-![GA](/img/in-post/gaussian_1.png)  
+![GA](/img/in-post/gaussian_1.png) 
+其中![qiwang](/img/in-post/qiwang.png)为数据均值(期望)，![qiwang](/img/in-post/sd.png)为数据标准差(Standard deviation).
 
 
 
