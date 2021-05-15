@@ -1,14 +1,14 @@
 {
-    "name": "allenwhm",
-    "title": "allenwhm",
-    "author": "allenwhm",
+    "name": "currywhm",
+    "title": "currywhm",
+    "author": "currywhm",
     "version": "1.0.0",
-    "homepage": "http://allenwhm.github.io",
+    "homepage": "http://currywhm.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/allenwhm/allenwhm.github.io"
+        "url": "https://github.com/currywhm/currywhm.github.io"
     },
-    "bugs": "https://github.com/allenwhm/allenwhm.github.io/issues",
+    "bugs": "https://github.com/currywhm/currywhm.github.io/issues",
     "devDependencies": {
         "grunt": "^1.2.1",
         "grunt-banner": "~0.2.3",
