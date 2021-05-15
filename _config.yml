@@ -1,17 +1,17 @@
 # Site settings
-title: currywhm
-SEOTitle: currywhm
+title: 技术宅
+SEOTitle: 技术宅
 email: pengweisi17@163.com
-description: "Allen WANG | Big Data Developer"
-keyword: "Allen WANG, currywhm, big data, 大数据"
+description: "si pengiwei | Big Data Developer"
+keyword: "si pengwei, currywhm, big data, 大数据"
 url: "https://currywhm.github.io"
 baseurl: ""
 
 # SNS settings
 RSS: false
 weibo_username:     sipengwei
-zhihu_username:     currywhm
-github_username:    currywhm
+zhihu_username:     sipengwei
+github_username:    sipengwei
 #linkedin_username:
 #twitter_username:
 #facebook_username:
