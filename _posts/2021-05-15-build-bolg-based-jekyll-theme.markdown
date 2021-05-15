@@ -1,8 +1,8 @@
 ---
 layout:       post
 title:        "根据Jekyll模板创建个人博客"
-date:         2018-04-25
-author:       "Allen"
+date:         2021-05-15
+author:       "sipengwei"
 header-mask:  0.3
 catalog:      false
 multilingual: false
