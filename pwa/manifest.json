@@ -1,0 +1,10 @@
+{
+  "name": "Allen's Blog",
+  "short_name": "Allen's Blog",
+  "description": "Build for love.",
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
