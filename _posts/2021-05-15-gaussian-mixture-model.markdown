@@ -16,7 +16,8 @@ tags:
 **单高斯模型**  
 当样本数据X是一维数据时，高斯分布遵从下方概率密度函数：
 <img src="/img/in-post/gaussian_model/gaussian_1.png"/>  
-其中<img src="/img/in-post/gaussian_model/qiwang.png"/>为数据均值(期望)，<img src="/img/in-post/gaussian_model/sd.png"/>为数据标准差(Standard deviation).  
+<center class="half">
+其中<img src="/img/in-post/gaussian_model/qiwang.png"/>为数据均值(期望)，<img src="/img/in-post/gaussian_model/sd.png"/>为数据标准差(Standard deviation).</center>  
 当样本数据X是多维数据十，高斯分布遵从一下概率密度函数:
 <img src="/img/in-post/gaussian_model/gaussian_2.png"/>
 其中，<img src="/img/in-post/gaussian_model/qiwang.png"/>为数据均值(期望)，<img src="/img/in-post/gaussian_model/cov.png"/>为协方差，D为数据维度。  
