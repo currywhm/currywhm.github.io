@@ -16,12 +16,16 @@ tags:
 **单高斯模型**  
 当样本数据X是一维数据时，高斯分布遵从下方概率密度函数：
 <img src="/img/in-post/gaussian_model/gaussian_1.png"/>  
-<center class="half">
-其中<img src="/img/in-post/gaussian_model/qiwang.png"/>为数据均值(期望)，<img src="/img/in-post/gaussian_model/sd.png"/>为数据标准差(Standard deviation).</center>  
+
 当样本数据X是多维数据十，高斯分布遵从一下概率密度函数:
-<img src="/img/in-post/gaussian_model/gaussian_2.png"/>
-其中，<img src="/img/in-post/gaussian_model/qiwang.png"/>为数据均值(期望)，<img src="/img/in-post/gaussian_model/cov.png"/>为协方差，D为数据维度。  
+![qiwang](/img/in-post/gaussian_model/gaussian_2.png)  
+
 **高斯混合模型**  
+高斯混合模型可以看作是由 K 个单高斯模型组合而成的模型，这 K 个子模型是混合模型的隐变量（Hidden variable）。一般来说，一个混合模型可以使用任何概率分布，这里使用高斯混合模型是因为高斯分布具备很好的数学性质以及良好的计算性能。
+
+举个不是特别稳妥的例子，比如我们现在有一组狗的样本数据，不同种类的狗，体型、颜色、长相各不相同，但都属于狗这个种类，此时单高斯模型可能不能很好的来描述这个分布，因为样本数据分布并不是一个单一的椭圆，所以用混合高斯分布可以更好的描述这个问题，如下图所示：
+![qiwang](/img/in-post/gaussian_model/Hidder_var.png)
+![qiwang](/img/in-post/gaussian_model/Hidder_2.png)
 
 
 
