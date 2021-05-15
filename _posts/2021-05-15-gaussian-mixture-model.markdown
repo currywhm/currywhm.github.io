@@ -25,7 +25,10 @@ tags:
 
 举个不是特别稳妥的例子，比如我们现在有一组狗的样本数据，不同种类的狗，体型、颜色、长相各不相同，但都属于狗这个种类，此时单高斯模型可能不能很好的来描述这个分布，因为样本数据分布并不是一个单一的椭圆，所以用混合高斯分布可以更好的描述这个问题，如下图所示：
 ![qiwang](/img/in-post/gaussian_model/Hidder_var.png)
-![qiwang](/img/in-post/gaussian_model/Hidder_2.png)
+[qiwang](/img/in-post/gaussian_model/hidder_2.png)sipengwei456456
+
+**高斯模型参数**  
+对于单高斯模型，我们可以通过最大似然法([Maximum likelihood](https://www.cnblogs.com/wjy-lulu/p/7010258.html))估算参数的值。  
 
 
 
