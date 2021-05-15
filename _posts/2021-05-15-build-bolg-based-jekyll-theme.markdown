@@ -8,7 +8,6 @@ catalog:      false
 multilingual: false
 tags:
     - Jekyll
-    - Blog
 ---
 
 首先，仰慕 [[Hux]](https://huangxuan.me/) 大神。
