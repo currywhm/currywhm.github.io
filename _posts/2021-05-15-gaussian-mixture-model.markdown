@@ -88,7 +88,7 @@ plt.show()
 ```   
 
 经过几次高斯模型迭代以后，曲线区域拟合，拟合得分0.9以上。
-![log](/img/in-post/gaussian_model/gaussian_em.png)
+![log](/img/in-post/gaussian_model/gaussian_em.PNG)
 
 
 
