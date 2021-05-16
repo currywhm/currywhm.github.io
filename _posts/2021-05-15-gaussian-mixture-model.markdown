@@ -28,7 +28,24 @@ tags:
 ![qiwang](/img/in-post/gaussian_model/hidder_2.png)
 
 **高斯模型参数**  
-对于单高斯模型，我们可以通过最大似然法([Maximum likelihood](https://www.cnblogs.com/wjy-lulu/p/7010258.html))估算参数的值。  
+对于单高斯模型，我们可以通过最大似然法([Maximum likelihood](https://www.cnblogs.com/wjy-lulu/p/7010258.html))估算参数的值。
+![pdf](/img/in-post/gaussian_model/pdf.png)
+由于每个点发生的概率都很小，乘积会变得极其小，不利于计算和观察，因此通常我们用 Maximum Log-Likelihood 来计算（因为 Log 函数具备单调性，不会改变极值的位置，同时在 0-1 之间输入值很小的变化可以引起输出值相对较大的变动）：
+![log](/img/in-post/gaussian_model/log.png)
+对于高斯混合模型，Log-Likelihood 函数是：
+![log](/img/in-post/gaussian_model/log-like.png)
+如何计算高斯混合模型的参数呢？这里我们无法像单高斯模型那样使用最大似然法来求导求得使 likelihood 最大的参数，因为对于每个观测数据点来说，事先并不知道它是属于哪个子分布的（hidden variable），因此 log 里面还有求和，对于每个子模型都有未知的参数 ，直接求导无法计算。需要通过迭代的方法求解。  
+**EM 算法**  
+EM 算法是一种迭代算法，1977 年由 Dempster 等人总结提出，用于含有隐变量（Hidden variable）的概率模型参数的最大似然估计。  
+每次迭代包含两个步骤：  
+![log](/img/in-post/gaussian_model/s-step.png)
+这里不具体介绍一般性的 EM 算法（通过 Jensen 不等式得出似然函数的下界 Lower bound，通过极大化下界做到极大化似然函数），只介绍怎么在高斯混合模型里应用从来推算出模型参数。  
+![log](/img/in-post/gaussian_model/e-step.png)
+至此，我们就找到了高斯混合模型的参数。需要注意的是，EM 算法具备收敛性，但并不保证找到全局最大值，有可能找到局部最大值。解决方法是初始化几次不同的参数进行迭代，取结果最好的那次。  
+
+**代码实现**  
+
+
 
 
 
