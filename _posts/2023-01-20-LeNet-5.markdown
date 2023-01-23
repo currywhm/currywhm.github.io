@@ -1,0 +1,11 @@
+---
+layout:       post
+title:        "LeNet-5"
+date:         2023-01-20
+author:       "sipengwei"
+header-mask:  0.3
+catalog:      false
+multilingual: false
+tags:
+- deep model
+---
